@@ -137,9 +137,9 @@ class GSMSim {
     String moduleModel();
     // modül revizyon
     String moduleRevision();
-    // modül imei
+    // modül IMEI
     String moduleIMEI();
-    // modül imei değiştirme
+    // modül IMEI değiştirme
     bool moduleIMEIChange(char* imeino);
     // modül sim no
     String moduleIMSI();
