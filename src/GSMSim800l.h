@@ -46,7 +46,7 @@ public :
     }
 
     // HTTP Get
-    String send_data(String url, String data);
+    String send_data(const String& host, const String& port, const String& data);
 };
 
 
